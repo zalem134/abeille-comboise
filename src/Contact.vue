@@ -1,7 +1,7 @@
 <template>
-  <section id="contact" class="">
+  <section id="contact" class="pt-10">
     <h2
-      class="mt-10 ml-20 text-4xl font-extrabold leading-8 tracking-tight text-red-50 sm:text-6xl sm:leading-9 font-hand"
+      class="ml-20 text-4xl font-extrabold leading-8 tracking-tight text-red-50 sm:text-6xl sm:leading-9 font-hand"
     >
       Contactez-nous
     </h2>
@@ -95,7 +95,7 @@
         <div class="w-full max-w-lg mx-auto">
           <form
             class="grid grid-cols-1 gap-y-6"
-            action="?success=true"
+            action="/?success=true#contact"
             data-netlify="true"
             method="POST"
             name="contact"
@@ -167,7 +167,6 @@
 <script>
 export default {
   name: 'Contact',
-  
 }
 </script>
 <style>

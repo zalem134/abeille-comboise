@@ -6,19 +6,20 @@
     <Produits />
     <WaveBottom />
     <Contact />
-  <!--<AppFooter />-->
+    <!--<AppFooter />-->
   </div>
 </template>
 
 <script>
-import { defineComponent } from 'vue'
+// import AppFooter from './AppFooter.vue'
+import { defineComponent, onMounted } from 'vue'
 import NavHeader from './NavHeader.vue'
 import SimpleHero from './SimpleHero.vue'
 import Abeille from './Abeille.vue'
 import Produits from './Produits.vue'
 import WaveBottom from './WaveBottom.vue'
 import Contact from './Contact.vue'
-// import AppFooter from './AppFooter.vue'
+import Swal from 'sweetalert2'
 
 export default defineComponent({
   components: {
@@ -30,14 +31,23 @@ export default defineComponent({
     SimpleHero,
     NavHeader,
   },
-
+  setup() {
+    onMounted(() => {
+      if (window.location.search.includes('success=true')) {
+        Swal.fire({
+          icon: 'success',
+          confirmButtonColor: '#a5dc86',
+          title: 'Merci',
+          text: 'Votre message a bien été envoyé, nous reviendrons vers vous dès que possible.',
+        })
+      }
+    })
+  },
 })
+
 </script>
 
 <style>
-.gradient {
-    background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
-}
 
 html {
     scroll-behavior: smooth;
@@ -47,4 +57,12 @@ html {
     scroll-margin-top: 5rem;
 }
 
+</style>
+
+
+<style src="sweetalert2/dist/sweetalert2.min.css"/>
+<style>
+.swal2-modal {
+    @apply rounded-lg !important;
+}
 </style>

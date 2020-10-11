@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@tailwindcss/ui": "^0.6.2",
+    "sweetalert2": "^10.3.7",
     "tailwindcss": "^1.8.13",
     "vue": "next"
   },
