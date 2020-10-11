@@ -1,5 +1,5 @@
 <template>
-  <section id="produits" class="py-8 bg-white">
+  <section id="produits" class="py-8 bg-gray-100">
     <div class="container flex flex-wrap pt-4 pb-12 mx-auto">
       <h1 class="w-full my-2 text-4xl font-bold leading-tight text-center text-gray-800 sm:text-6xl font-hand">
         Les produits
