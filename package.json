@@ -1,0 +1,22 @@
+{
+  "name": "abeille-comboise",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "cross-env NODE_ENV=production node build.js"
+  },
+  "dependencies": {
+    "@tailwindcss/ui": "^0.6.2",
+    "tailwindcss": "^1.8.13",
+    "vue": "next"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/server-renderer": "^3.0.0",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.11.0",
+    "eslint-plugin-vue": "^7.0.1",
+    "vite": "^1.0.0-rc.4"
+  }
+}

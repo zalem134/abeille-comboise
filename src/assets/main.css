@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+
+@font-face {
+    font-family: Just Tell Me What;
+    src: url(fonts/just_tell_me_what.otf);
+}
