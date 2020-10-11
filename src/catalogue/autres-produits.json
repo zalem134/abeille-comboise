@@ -1,0 +1,26 @@
+[
+  {
+    "titre":" Lingots de cire",
+    "prix":2,
+    "description":"`Composition : 100% Cire d’opercule. Utilisation : Cosmétiques, Cirage, BeeWraps, etc.`",
+    "color":"#b79d5e",
+    "quantite":"30g",
+    "img":"cire.png"
+  },
+  {
+    "titre":"Petit BeeWrap",
+    "prix":3,
+    "description":"Tissu 100% cotton et Cire d’opercule. \n S\\'utilise en substitut aux films alimentaires. Pour contact alimentaire. Nettoyage à l’eau froide.",
+    "color":"#93aba7",
+    "quantite":"10x10 cm",
+    "img":"bwrap.png"
+  },
+  {
+    "titre":"Grand BeeWrap",
+    "prix":10,
+    "description":"Tissu 100% cotton et Cire d’opercule. S\\'utilise en substitut aux films alimentaires. Pour contact alimentaire. Nettoyage à l’eau froide.",
+    "color":"#495c72",
+    "quantite":"30x30 cm",
+    "img":"bwrap.png"
+  }
+]

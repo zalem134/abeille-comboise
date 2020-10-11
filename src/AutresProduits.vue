@@ -18,16 +18,16 @@
                   :src="`/img/produits/${produit.img}`"
                   :alt="`Photo de ${produit.titre}`"
                   class="absolute object-cover object-top w-full h-full rounded-lg shadow-lg"
-                  :class="{'opacity-50': !produit.stock}"
+                  :class="{'opacity-50': produit.plusEnStock}"
                 >
                 <span
-                  v-if="!produit.stock"
+                  v-if="produit.plusEnStock"
                   class="absolute bottom-0 right-0 px-2 py-px m-2 text-sm font-semibold text-red-800 bg-white rounded"
                 >
                   Victime de son succès
                 </span>
               </div>
-              <div :class="{'opacity-50': !produit.stock}">
+              <div :class="{'opacity-50': produit.plusEnStock}">
                 <div class="space-y-1 text-lg font-medium leading-6">
                   <div class="flex items-baseline justify-between">
                     <h4 :style="{ color: produit.color }" class="text-3xl font-hand">
@@ -53,44 +53,14 @@
   </div>
 </template>
 <script>
+
+import produits from './catalogue/autres-produits.json'
+
 export default {
   name: 'AutresProduits',
   setup() {
-    const produits = [
-      {
-        titre: ' Lingots de cire',
-        prix: 2,
-        stock: true,
-        description: `Composition : 100% Cire d’opercule. Utilisation : Cosmétiques, Cirage, BeeWraps, etc.`,
-        color: '#b79d5e',
-        quantite: '30g',
-        img: 'cire.png',
-        cacher: false,
-      },
-      {
-        titre: 'Petit BeeWrap',
-        prix: 3,
-        stock: true,
-        description: 'Tissu 100% cotton et Cire d’opercule. \n S\'utilise en substitut aux films alimentaires. Pour contact alimentaire. Nettoyage à l’eau froide.',
-        color: '#93aba7',
-        quantite: '10x10 cm',
-        img: 'bwrap.png',
-        cacher: false,
-      },
-      {
-        titre: 'Grand BeeWrap',
-        prix: 10,
-        stock: true,
-        description: 'Tissu 100% cotton et Cire d’opercule. S\'utilise en substitut aux films alimentaires. Pour contact alimentaire. Nettoyage à l’eau froide.',
-        color: '#495c72',
-        quantite: '30x30 cm',
-        img: 'bwrap.png',
-        cacher: false,
-      },
-    ]
-
     return {
-      produits: produits.filter(({ cacher }) => !cacher),
+      produits: produits.filter(({ masquer }) => !masquer),
     }
   },
 }
