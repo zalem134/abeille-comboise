@@ -8,8 +8,7 @@
         class="flex items-center pl-4 transition-opacity duration-500 ease-in-out"
         :class="{'opacity-0': !showHeader}"
       >
-        <!--<Logo class="h-16 text-gray-700" />-->
-        <img alt="" class="h-16" src="./assets/images/logo_mathias.png">
+        <img alt="" class="h-16" src="/img/logo_mathias.png">
       </div>
 
       <ul class="flex items-center gap-6">

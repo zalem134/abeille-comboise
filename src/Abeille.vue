@@ -26,7 +26,7 @@
           </p>
         </div>
         <div class="flex items-center w-full p-6 sm:w-1/2">
-          <img class="object-cover w-full mx-auto rounded-lg shadow-lg sm:h-64 " src="./assets/images/apiculteur.jpg" alt="">
+          <img class="object-cover w-full mx-auto rounded-lg shadow-lg sm:h-64 " src="/img/apiculteur.jpg" alt="">
         </div>
       </div>
 
