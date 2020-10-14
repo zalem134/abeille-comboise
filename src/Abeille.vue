@@ -11,18 +11,12 @@
       <div class="flex flex-wrap">
         <div class="w-5/6 p-6 sm:w-1/2">
           <h2 class="mb-3 text-2xl font-bold leading-none text-gray-800 sm:text-3xl">
-            Allez ! Viens dans Mont Derrière !
+            Mathias Chicaud, Apiculteur au coeur des Bauges
           </h2>
           <p class="text-gray-600">
-            Que font ici ces titres de noblesse ? <br>
-            Leurs faux éclats ne peuvent nous éblouir. <br>
-            Ici, puissants, l'inégalité cesse, <br>
-            Vieux privilèges, il vous faut tous périr. <br>
-            Goûtons amis, ce bonheur qu'on méprise, <br>
-            Car sachez bien qu'à l’École des Arts, <br>
-            <br>
-            "Fraternité", c'est là notre devise, <br>
-            C'est la devise de tous les vrais Gadz'Arts. <br>
+            Ingénieur de formation, Mathias s'est lancé dans l'aventure apicole en commencant par une solide formation théorique et 
+            a travaillé quelques temps auprès d'apiculteurs professionels pour apprendre les rudiments de ce métier passionant. 
+            en 2019, l'Abeille Comboise (en référence aux habitantes de Bellecombe en Bauges) est créee...
           </p>
         </div>
         <div class="flex items-center w-full p-6 sm:w-1/2">
@@ -42,18 +36,14 @@
         <div class="w-full p-6 mt-6 sm:w-1/2">
           <div class="align-middle">
             <h3 class="mb-3 text-2xl font-bold leading-none text-gray-800 sm:text-3xl">
-              De l'artisanat, tout ça tout ça.
+              Pour une apiculture plus proche des abeilles et du consomateur
             </h3>
             <p class="text-gray-600">
-              Non, ce n'est plus votre antique abbaye, <br>
-              Vos chants sacrés, aux pieds de vos autels, <br>
-              Non, ce n'est plus votre indolente vie, <br>
-              Vos oraisons pour les heureux mortels. <br>
-              Le fer gémit, c'est là notre prière; <br>
-              Votre couvent, c'est l’École des Arts. <br>
-              <br>
-              Moines, dormez sous vos six pieds de terre, <br>
-              Dormez en paix, et vivent les Gadz'Arts. <br>
+              Située au pied du Roc des Boeufs, l'exploitation est aux plus proche des colonies pour leur apporter 
+              tout le soutien qu'elles méritent. Les techniques avancées sont employées pour assurer leur
+              survie, tout en respectant le cycle de vie des abeilles.</br>
+              Mathias éleve ses propres reines afin de favoriser le développement d'une Abeille la plus adaptée à son environnement.
+                      
             </p>
           </div>
         </div>
