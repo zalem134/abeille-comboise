@@ -41,7 +41,7 @@
             <p class="text-gray-600">
               Située au pied du Roc des Boeufs, l'exploitation est aux plus proche des colonies pour leur apporter 
               tout le soutien qu'elles méritent. Les techniques avancées sont employées pour assurer leur
-              survie, tout en respectant le cycle de vie des abeilles.</br>
+              survie, tout en respectant le cycle de vie des abeilles. <br>
               Mathias éleve ses propres reines afin de favoriser le développement d'une Abeille la plus adaptée à son environnement.
                       
             </p>
