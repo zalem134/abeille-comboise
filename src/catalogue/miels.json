@@ -3,76 +3,79 @@
     "titre":"Miel d'Acacia",
     "provenance":"Pays d’Entrelacs",
     "prix":8.50,
-    "description":"Un miel fort en bouche, qui Nulla quam felis, enim faucibus proin velit, ornare id pretium. Augue ultrices sed arcu condimentum vestibulum suspendisse.",
+    "description":"Ce miel jaune clair, au goût léger et doux, reste liquide très longtemps s’il est pur. Apprécié des enfants, il peut être utilisé pour agrémenter plats et desserts. Riche en fructose, il peut être consommé par les personnes diabétiques.",
     "color":"#a6a623",
     "quantite":"500g",
     "img":"acacia.png"
   },
   {
-    "titre":"Miel de Montagne",
+    "titre":"Miel de Fleurs",
+    "provenance":"Pays d’Entrelacs",
+    "prix":7.00,
+    "description":"Ce miel lumineux et puissant est issu de la première récolte de la saison.  Issu essentiellement du nectar de pissenlit de d’acacia, il est souvent considéré comme une valeur sûre.",
+    "color":"#ad9866",
+    "quantite":"500g",
+    "img":"fleurs.png"
+  },
+    {
+    "titre":"Miel de Tilleul",
+    "provenance":"Pays de Chautagne",
+    "prix":8.00,
+    "description":"Ce miel surprenant à teinte jaune a également ses amateurs, puisque l’odeur qu’il dégage ainsi que son goût sont mentholés. Idéal pour sucrer sa tisane (Attention, attendre que la température de la tisane soit buvable pour verser le miel sans quoi celui-ci perdra ses propriétés !)",
+    "color":"#61827b",
+    "img":"tilleul.png",
+    "quantite":"500g"
+  },
+    {
+    "titre":"Miel de Châtaignier",
     "provenance":"Massif des Bauges",
+    "prix":9.00,
+    "plusEnStock":true,
+    "description":"Ce miel foncé au goût corsé et amer est très prisé de certains. Il peut être une alternative au miel d’acacia pour agrémenter les pâtisseries, tel que les fameux pains d’épices.",
+    "color":"#653200",
+    "img":"chataignier.png",
+    "quantite":"500g"
+  },
+ 
+  {
+    "titre":"Miel de Forêt \"2019\"",
+    "provenance":"Pays de Chautagne",
+    "prix":8.00,
+    "description":"Clair et cristallisé finement, son goût subtil et agréable est le mariage des miels châtaignier et du tilleul, présents dans la même forêt. Une édition limitée !",
+    "color":"#194018",
+    "img":"foret-2019.png",
+    "quantite":"500g"
+      "masquer":true
+  },
+  {
+    "titre":"Miel de Forêt \"2020\"",
+    "provenance":"Geoparc mondial UNESCO du massif des bauges",
+    "prix":8.00,
+    "description":"En plus de son goût caramel de miellat d’épicéa, le palais expérimenté saura reconnaître le goût typique du miel de châtaigner qui compose ce produit. ",
+    "color":"#486455",
+    "img":"foret-2020.png",
+    "quantite":"500g"
+  },
+    {
+    "titre":"Miel de Montagne",
+    "provenance":"Geoparc mondial UNESCO du massif des bauges",
     "prix":8.50,
-    "description":"Un miel fort en bouche, qui Nulla quam felis, enim faucibus proin velit, ornare id pretium. Augue ultrices sed arcu condimentum vestibulum suspendisse.",
+    "description":"Ce miel au goût fruité rassemble les nectars issus de centaurées, épilobes, ronces et de nombreuses variétés endémiques. Si la saison est propice, du miellat peut également être butiné. C’est la dernière récolte de l’année, où la population de la colonie est à son apogée.",
     "color":"#6e8760",
     "quantite":"500g",
     "img":"montagne.png"
   },
   {
-    "titre":"Miel de Fleurs",
-    "provenance":"Pays d’Entrelacs",
-    "prix":7.00,
-    "description":"Un miel fort en bouche, qui Nulla quam felis, enim faucibus proin velit, ornare id pretium. Augue ultrices sed arcu condimentum vestibulum suspendisse.",
-    "color":"#ad9866",
-    "quantite":"500g",
-    "img":"fleurs.png"
-  },
-  {
-    "titre":"Miel de Forêt \"2019\"",
-    "provenance":"Pays de Chautagne",
-    "prix":8.00,
-    "description":"Un miel fort en bouche, qui Nulla quam felis, enim faucibus proin velit, ornare id pretium. Augue ultrices sed arcu condimentum vestibulum suspendisse.",
-    "color":"#194018",
-    "img":"foret-2019.png",
-    "quantite":"500g"
-  },
-  {
-    "titre":"Miel de Forêt \"2020\"",
-    "provenance":"Massif des Bauges",
-    "prix":8.00,
-    "description":"Un miel fort en bouche, qui Nulla quam felis, enim faucibus proin velit, ornare id pretium. Augue ultrices sed arcu condimentum vestibulum suspendisse.",
-    "color":"#486455",
-    "img":"foret-2020.png",
-    "quantite":"500g"
-  },
-  {
-    "titre":"Miel de Tilleul",
-    "provenance":"Pays de Chautagne",
-    "prix":8.00,
-    "description":"Un miel fort en bouche, qui Nulla quam felis, enim faucibus proin velit, ornare id pretium. Augue ultrices sed arcu condimentum vestibulum suspendisse.",
-    "color":"#61827b",
-    "img":"tilleul.png",
-    "quantite":"500g"
-  },
-  {
     "titre":"Miel de Haute Montagne",
-    "provenance":"Massif des Bauges",
+    "provenance":"Geoparc mondial UNESCO du massif des bauges",
     "prix":9.00,
     "plusEnStock":true,
-    "description":"Un miel fort en bouche, qui Nulla quam felis, enim faucibus proin velit, ornare id pretium. Augue ultrices sed arcu condimentum vestibulum suspendisse.",
+    "description":"Ce miel rond et rare est issu de ruches butinant au-delà de 1200m d’altitude, généralement entourées de pâturages. Ce miel est constitué d’essence florales telles que le thym sauvage, le serpolet ou encore le rhododendron.",
     "color":"#285b8a",
     "img":"haute-montagne.png",
     "quantite":"500g"
   },
-  {
-    "titre":"Miel de Châtaignier",
-    "provenance":"Massif des Bauges",
-    "prix":9.00,
-    "plusEnStock":true,
-    "description":"Un miel fort en bouche, qui Nulla quam felis, enim faucibus proin velit, ornare id pretium. Augue ultrices sed arcu condimentum vestibulum suspendisse.",
-    "color":"#653200",
-    "img":"chataignier.png",
-    "quantite":"500g"
-  },
+
   {
     "titre":"Un autre miel",
     "provenance":"qui est masqué pour le moment",
