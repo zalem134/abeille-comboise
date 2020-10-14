@@ -9,8 +9,7 @@
       <div class="relative flex flex-col justify-around gap-10 px-10 py-16 mx-auto md:flex-row max-w-7xl">
         <div class="max-w-sm mx-auto">
           <p class="text-lg leading-6 text-red-200">
-            Pour votre commande, pour goûter nos produits,
-            ou pour voir les ruches n'hésitez pas à passer nous voir&nbsp;!
+            Si vous avez des questions, envie de goùuter sur place nos miels, ou si vous souaitez passer commande&nbsp;!
           </p>
           <dl class="mt-8 text-base leading-6 text-red-200">
             <div>
