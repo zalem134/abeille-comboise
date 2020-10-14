@@ -3,12 +3,12 @@
     <div class="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
       <div class="space-y-5 sm:space-y-4">
         <h2 id="produits" class="text-2xl font-extrabold leading-9 tracking-tight text-gray-700 sm:text-3xl">
-          Les produits
+          Nos Miels
         </h2>
         <p class="text-xl italic leading-7 text-gray-500">
-          Extraits de ruches en pays Savoyard, nos produits sont mis en pots à la produitlerie Collective des Bauges de Saint
-          Eustache (74).
-          Gage de qualité, ils cristallisent naturellement au bout de quelques mois.
+         Attachés à notre région, nos ruchers se situent jusqu'à une heure autour de notre exploitation, en prenant soin de selectionner 
+         des secteurs les plus purs possibles. Nous transhumons nos ruches au gré des saisons et des floraisons, d'avril a juillet, afin 
+         de vous offrir des miesl variés et de qualité.
         </p>
       </div>
       <div class="lg:col-span-2">
